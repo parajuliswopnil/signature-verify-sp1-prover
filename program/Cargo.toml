@@ -1,0 +1,12 @@
+[workspace]
+[package]
+version = "0.1.0"
+name = "hello-program"
+edition = "2021"
+
+[dependencies]
+hex-literal = "0.4.1"
+k256 = "0.13.3"
+keccak-hash = "0.10.0"
+rand_core = "0.6.4"
+sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git", branch = "main" }
